@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Portal WEB</title>
+
+  <!-- Leaflet (mapa baseado em OpenStreetMap) 
+       Vantagem: NÃO precisa de chave de API. -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+
+  <!-- Nosso CSS -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- O app inteiro é renderizado dentro desta div -->
+  <div id="app"></div>
+
+  <!-- IMPORTANTE: a ordem dos scripts importa.
+       1) data.js  -> fornece "Store" (dados em localStorage)
+       2) map.js   -> componente de mapa (Leaflet)
+       3) app.js   -> SPA (rotas, telas, interações) 
+       4) admin.js -> Acesso do admin -->
+  <script src="data.js"></script>
+  <script src="map.js"></script>
+  <script src="app.js"></script>
+  <script src="admin.js"></script>
+</body>
+</html>
