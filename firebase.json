@@ -1,11 +1,17 @@
 {
   "hosting": {
-    "site": "deteccao-mosquito",
     "public": "public",
+    "site": "deteccao-criadouro",
     "ignore": [
       "firebase.json",
       "**/.*",
       "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
     ],
     "headers": [
       {
@@ -34,12 +40,6 @@
             "value": "max-age=86400"
           }
         ]
-      }
-    ],
-    "rewrites": [
-      {
-        "source": "**",
-        "destination": "/index.html"
       }
     ]
   }
