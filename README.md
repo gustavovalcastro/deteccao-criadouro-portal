@@ -19,7 +19,7 @@ Fornecer aos gestores de saúde municipal uma ferramenta centralizada para:
 
 ## 🌐 Acesso ao Portal
 
-**Link de Produção:** [https://deteccao-mosquito.web.app/](https://deteccao-mosquito.web.app/)
+**Link de Produção:** [https://deteccao-criadouro.web.app/](https://deteccao-criadouro.web.app/)
 
 ### 🔑 Credenciais de Exemplo
 
