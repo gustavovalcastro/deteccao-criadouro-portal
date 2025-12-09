@@ -74,21 +74,6 @@ Ao clicar sobre um ponto no mapa, o gestor pode acessar informações detalhadas
 - **Google Maps JavaScript API** - Para visualização de mapas
 - **SPA (Single Page Application)** com roteamento baseado em hash
 
-### Backend
-
-- **FastAPI** - Framework Python para API REST
-- **Google Cloud Platform (GCP)** - Infraestrutura em nuvem
-  - Cloud Run - Hospedagem do backend
-  - Cloud SQL (PostgreSQL) - Banco de dados
-  - Cloud Storage - Armazenamento de imagens
-
-### Modelo de IA
-
-- **YOLOv12** - Arquitetura de detecção de objetos
-- **Precisão:** 83,93%
-- **Recall:** 61,04%
-- **mAP50:** 74,8%
-
 ### Hospedagem
 
 - **Firebase Hosting** - Hospedagem do portal web
@@ -142,41 +127,6 @@ php -S localhost:8000
 ```
 
 3. Acesse `http://localhost:8000` no navegador
-
-## 📊 Resultados do Modelo
-
-O modelo de detecção YOLOv12 foi treinado com uma base de dados diversificada e alcançou os seguintes resultados:
-
-| Métrica      | Resultado |
-| ------------ | --------- |
-| **Precisão** | 83,93%    |
-| **Recall**   | 61,04%    |
-| **F1-Score** | 70,68%    |
-| **mAP50**    | 74,8%     |
-| **mAP75**    | 66,44%    |
-| **mAP50-95** | 57,78%    |
-
-## 👥 Autores
-
-- **Davidson Marra Rodrigues Vieira** - davidsonmarra@gmail.com
-- **Gustavo Valadares Castro** - tcc2025@gvcastro.com
-- **Matheus Santos Ferreira Costa** - matheussantosfcosta@gmail.com
-- **Pedro Henrique Teixeira de Souza** - phtsouza@gmail.com
-- **Rafael Henrique da Rocha Silva** - rafaelehnrq@gmail.com
-
-**Orientador:** Prof. Felipe Augusto Lara Soares - felipesoares@pucminas.br
-
-## 📚 Referências
-
-Este projeto foi desenvolvido como Trabalho de Conclusão de Curso em Engenharia de Computação da **Pontifícia Universidade Católica de Minas Gerais (PUC Minas)**.
-
-Para mais informações sobre o projeto completo, incluindo o aplicativo móvel e o modelo de IA, consulte o repositório principal:
-
-**Repositório:** [https://github.com/ICEI-PUC-Minas-EC-TCC/pmg-ec-2025-2-tcc2-detecccao-criadouro-mosquito](https://github.com/ICEI-PUC-Minas-EC-TCC/pmg-ec-2025-2-tcc2-detecccao-criadouro-mosquito)
-
-## 📝 Licença
-
-Este projeto foi desenvolvido para fins acadêmicos como parte do Trabalho de Conclusão de Curso.
 
 ## 🤝 Contribuições
 
